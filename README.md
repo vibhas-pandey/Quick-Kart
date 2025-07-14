@@ -61,7 +61,7 @@ This project offers a smooth and powerful eCommerce experience with all essentia
 git clone https://github.com/<your-username>/mern-ecommerce.git
 cd mern-ecommerce
 
-🔧 Environment Variables
+Environment Variables
 Rename .env.example to .env and add the following:
 NODE_ENV=development
 PORT=5000
@@ -80,7 +80,7 @@ EMAIL_USER=YOUR_BREVO_EMAIL
 EMAIL_PASS=YOUR_BREVO_PASSWORD
 EMAIL_FROM=YOUR_BREVO_EMAIL
 
-📦 Install Dependencies:
+Install Dependencies:
 bash
 npm install        # Install backend packages
 cd frontend
@@ -89,39 +89,32 @@ npm install        # Install frontend packages
 ▶️ Run the App
 To start both frontend & backend concurrently:
 
-bash
 npm run dev
 
-🏗️ Build for Production:
+Build for Production:
 
-bash
 cd frontend
 npm run build
 
-🧪 Seed / Reset Database:
-bash
-
+Seed / Reset Database:
 # Import sample users & products
 npm run data:import
 
 # Destroy all data
 npm run data:destroy
 
-Sample Logins
+🔐 Sample Logins
 🔑 Admin Login
 🔗 Admin Dashboard
-
 Email: workforvibhas@gmail.com
 Password: 1234Radhe
 
 🛍️ Customer Logins
 🔗 Customer Login
-
-John Doe
+Name: John Doe
 Email: john@email.com
 Password: john123
 
 📄 License
 This project is open source and available under the MIT License.
-
 
