@@ -6,9 +6,6 @@ dotenv.config();
 // Middleware to protect routes by verifying JWT authentication token.
 const protect = async (req, res, next) => {
   try {
-
-    console.log("JWT_SECRET in middleware:", process.env.JWT_SECRET);
-    console.log("Token received:", req.cookies.jwt);
     
     const token = req.cookies.jwt;
 
